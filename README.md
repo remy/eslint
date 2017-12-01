@@ -4,6 +4,8 @@ My shared (and personal) eslint configurations for different projects.
 
 Currently supporting:
 
+* node
+* jest
 * next.js
 * create-react-app
 
