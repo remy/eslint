@@ -1,8 +1,11 @@
 {
   "name": "@remy/eslint",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "My personal eslint settings",
   "main": "index.js",
+  "bin": {
+    "lint-config": "./gen-eslintrc.js"
+  },
   "scripts": {
     "test": "node __tests__/*.js"
   },
