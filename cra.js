@@ -9,7 +9,6 @@ module.exports = {
     ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true,
     },
   },
   plugins: ['react'],
