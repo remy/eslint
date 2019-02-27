@@ -14,12 +14,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {
+  rules: Object.assign(require('./common-rules'), {
     'react/prop-types': 0,
     'react/jsx-uses-vars': [2],
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single', { allowTemplateLiterals: true }],
-    semi: ['error', 'always'],
-  },
+  }),
 };

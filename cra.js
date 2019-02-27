@@ -12,12 +12,8 @@ module.exports = {
     },
   },
   plugins: ['react'],
-  rules: {
-    indent: ['error', 2, { SwitchCase: 1 }],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
+  rules: Object.assign(require('./common-rules'), {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
-  },
+  }),
 };

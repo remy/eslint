@@ -4,5 +4,5 @@ module.exports = {
   env: {
     jest: true,
   },
-  rules: {},
+  rules: Object.assign(require('./common-rules'), { 'no-console': 0 }),
 };
