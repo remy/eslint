@@ -1,4 +1,4 @@
-const merge = require('lodash.merge');
+const merge = require('@remy/merge');
 const valid = ['cra', 'next', 'node', 'jest'];
 
 module.exports = (mod, options) => {
@@ -8,5 +8,5 @@ module.exports = (mod, options) => {
 
   const config = require(`./${mod}`);
 
-  return merge({}, config, options || {});
+  return merge(config, options || {});
 };
