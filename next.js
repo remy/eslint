@@ -17,5 +17,6 @@ module.exports = {
   rules: Object.assign(require('./common-rules'), {
     'react/prop-types': 0,
     'react/jsx-uses-vars': [2],
+    'react/jsx-no-undef': 'error',
   }),
 };
