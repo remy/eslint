@@ -1,6 +1,6 @@
 {
   "name": "@remy/eslint",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "My personal eslint settings",
   "main": "index.js",
   "bin": {
@@ -13,16 +13,16 @@
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
-    "@remy/merge": "^1.0.1",
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.1.0",
-    "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.50.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "^21.18.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-react": "^7.10.0",
+    "@remy/merge": "^1.0.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.8.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-react": "^7.13.0",
     "lodash.merge": "^4.6.1"
   },
   "repository": {
